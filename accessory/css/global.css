@@ -1,36 +1,44 @@
 #productList {
-    border-spacing: 0; /* Remove default spacing between cells */
-  }
-  
-  #productList tbody {
+    border-spacing: 0; 
+}
+
+#productList tbody {
     border-bottom: 10px solid transparent;
-  }
-  
-  #productList tbody tr:nth-child(even) {
+}
+
+#productList tbody tr:nth-child(even) {
     background-color: #f2f2f2;
-  }
-  
-  #productList tbody tr:nth-child(odd) {
+    color: #333; /* Change text color */
+    font-family: Arial, sans-serif; /* Change font */
+}
+
+#productList tbody tr:nth-child(odd) {
     background-color: #ffffff;
-  }
-  
-  #productList tfoot {
+    color: #333; /* Change text color */
+    font-family: Arial, sans-serif; /* Change font */
+}
+
+#productList tfoot {
     font-weight: bold;
-  }
-  
-  table {
+    color: #333; /* Change text color */
+    font-family: Arial, sans-serif; /* Change font */
+}
+
+table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th,
-  td {
+}
+
+th,
+td {
     text-align: left;
     padding: 8px;
-  }
-  
-  th {
+    color: #333; /* Change text color */
+    font-family: Arial, sans-serif;
+}
+
+th {
     background-color: brown;
     color: #f2f2f2;
-  }
- 
+    font-family: Arial, sans-serif; /* Change font */
+}
